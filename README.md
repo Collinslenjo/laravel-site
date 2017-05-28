@@ -1,2 +1,2 @@
 # laravel-site
-simple laravel website
+> simple laravel website
