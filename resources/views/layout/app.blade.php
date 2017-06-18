@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Larasite</title>
+	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}">
 </head>
 <body>
 <!-- Navbar -->
@@ -21,5 +22,6 @@
 	</div>
 </div>
 
+<script src="{{ elixir('js/app.js') }}"></script>
 </body>
 </html>
