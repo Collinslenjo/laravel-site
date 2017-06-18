@@ -3,6 +3,7 @@
 <head>
 	<title>Larasite</title>
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ elixir('css/custom.css') }}">
 </head>
 <body>
 <!-- Navbar -->
