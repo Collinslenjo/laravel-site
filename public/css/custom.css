@@ -23,9 +23,9 @@ nav ul li a{
 	text-decoration: none;
 }
 
-.banner{
-	width: 100%;
-}
 .banner img{
 	width: 100%;
+}
+.content{
+	margin-top: 10px;
 }
