@@ -5,6 +5,7 @@
 
 <div class="row">
 	<div class="col-md-12">
+@include('inc.messages')
 		<div class="page-title">
 			<h2>Contact</h2>
 		</div>
