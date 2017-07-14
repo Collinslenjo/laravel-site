@@ -8,17 +8,23 @@
 		<div class="page-title">
 			<h2>Contact</h2>
 		</div>
-		<div class="col-md-6">
-			<form action="" method="post">
-				<label for="name">Name</label><br>
-				<input type="text" name="name"><br>
-				<label for="email">Email</label><br>
-				<input type="email" name="email"><br>
-				<label for="message">Message</label><br>
-				<textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
-				<button type="submit" class="btn btn-primary">Send</button>
-			</form>
-		</div>
+	{!! Form::open(['url' => 'contact/submit']) !!}
+	    <div class="form-group">
+	    	{{Form::label('name', 'Name')}}
+	    	 {{Form::text('name','',['class'=>"form-control",'paceholder'=>'Enter Name'])}}
+	    </div>
+	    <div class="form-group">
+	    	{{Form::label('email', 'E-Mail Address')}}
+	    	{{ Form::text('email','',['class'=>"form-control",'paceholder'=>'example@gmail.com'])}}
+	    </div>
+	    <div class="form-group">
+	    	{{Form::label('message', 'Message', ['class' => 'awesome'])}}
+	    	{{ Form::textarea('message', '',['class'=>'form-control','placeholder'=>'Enter Message'])}}
+	    </div>
+	    <div>
+	    	{{Form::submit('Submit',['class'=>'btn btn-primary'])}}
+	    </div>
+	{!! Form::close() !!}		
 	</div>
 </div>
 

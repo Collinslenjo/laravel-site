@@ -6,9 +6,15 @@ body{
 	width: 100%;
 	border-radius: 0;
 }
-.banner img{
-	width: 100%;
+.banner{
+	background-image: url('../img/tw.png');
 }
 .content{
 	margin-top: 10px;
+}
+#footer{
+	margin-top: 30px;
+	padding: 20px;
+	color: #fff;
+	background: #333;
 }
