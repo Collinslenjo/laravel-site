@@ -6,8 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="{{ elixir('css/custom.css') }}">
 </head>
 <body>
+<div id="app">
+
 <!-- Navbar -->
 @include('inc.navbar')
+
 
 <div class="container-fluid">
 	<div class="row">
@@ -23,6 +26,8 @@
 	</div>
 </div>
 
+
+</div>
 <script src="{{ elixir('js/app.js') }}"></script>
 </body>
 </html>
