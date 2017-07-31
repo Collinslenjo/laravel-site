@@ -21,8 +21,4 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
-<<<<<<< HEAD
 Route::post('/contact','ViewController@message');
-=======
-Route::post('/contact/submit','MessagesController@submit');
->>>>>>> 288e59f8516a43f7f3077079d3ab334cc6a9d90b
