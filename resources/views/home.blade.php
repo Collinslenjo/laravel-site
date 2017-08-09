@@ -2,6 +2,7 @@
 
 @section('content')
 
+@include('inc.messages')
 <div class="container-fluid">
 	<div class="row">
 		<div class="page-title">
