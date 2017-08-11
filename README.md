@@ -9,4 +9,6 @@
  - navigation and sidebar
  - **CMS coming soon**
 
+[Documentation](https://lara-site.github.io)
+
 > ###### made with Love by [Collins](https://twitter.com/collo_scream)
